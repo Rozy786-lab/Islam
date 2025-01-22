@@ -23,7 +23,7 @@ next_birthday = datetime(current_year,birth_month,birth_date)
 #Calculate remaining days for your birthday
 remaining_days = (next_birthday - today).days
 #Printing the statement
-print(f"Upcomming Birthday: {next_birthday.strftime('%Y-%m-%d')}")
-print(f"Remaning Days:{remaining_days}")
+print(f"Upcoming Birthday: {next_birthday.strftime('%Y-%m-%d')}")
+print(f"Remianing Days:{remaining_days}")
    
    
