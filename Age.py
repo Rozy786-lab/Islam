@@ -24,6 +24,6 @@ next_birthday = datetime(current_year,birth_month,birth_date)
 remaining_days = (next_birthday - today).days
 #Printing the statement
 print(f"Upcoming Birthday: {next_birthday.strftime('%Y-%m-%d')}")
-print(f"Remianing Days:{remaining_days}")
+print(f"Remaining Days:{remaining_days}")
    
    
