@@ -7,7 +7,7 @@ birth_date  = int(input("Enter Date(1-31): "))
 today = datetime.now()
 #Get Current Age
 age = today.year - birth_year
-#Conditioning if the birthday hasn't occured adjust age
+#Conditioning if the birthday hasn't occurred adjust age
 if(today.month, today.day) < (birth_month, birth_date):
     age -=1
     
